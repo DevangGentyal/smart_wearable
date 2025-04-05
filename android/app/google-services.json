@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "185022188034",
-    "project_id": "mycareapp-e9f21",
-    "storage_bucket": "mycareapp-e9f21.firebasestorage.app"
+    "project_number": "754875278515",
+    "project_id": "safe-8fe05",
+    "storage_bucket": "safe-8fe05.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:185022188034:android:7bf151e74e559e544b351b",
+        "mobilesdk_app_id": "1:754875278515:android:73c5cffea59e871b5f7cc6",
         "android_client_info": {
           "package_name": "com.example.smart_wearable"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBZFBFclwP0FyabeXloaykaBob3G5PzhRY"
+          "current_key": "AIzaSyDf286YB1IGXgkEH5M3r1hdMWhVtTJaPZY"
         }
       ],
       "services": {

@@ -57,7 +57,7 @@ class SplashScreen extends StatelessWidget {
                   //   ),
                   // ),
                   const SizedBox(height: 40),
-                  // Sign Up Button
+                  // User Button
                   Container(
                     width: double.infinity,
                     height: 56,
@@ -99,7 +99,7 @@ class SplashScreen extends StatelessWidget {
                     ),
                     child: TextButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, '/signup');
+                        Navigator.pushNamed(context, '/login');
                       },
                       child: const Text(
                         'Log In',
