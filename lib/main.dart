@@ -96,7 +96,7 @@ class LoadingScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-        child: Image.asset('assets/images/loader.gif'),
+        child: CircularProgressIndicator(),
       ),
     );
   }
