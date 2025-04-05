@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:smart_wearable/database/user_service.dart';
 import 'package:smart_wearable/pages/connect_device_page.dart';
+import 'package:smart_wearable/pages/settings_page.dart';
 
 class PatientHomePage extends StatefulWidget {
   const PatientHomePage({Key? key}) : super(key: key);
@@ -17,7 +18,7 @@ class _PatientHomePageState extends State<PatientHomePage> {
   final List<Widget> _pages = [
     PatientHomePageContent(), // Custom widget for home content
     ConnectDevicePage(),
-    // SettingsPage(),
+    SettingsPage(),
   ];
 
   void _onItemTapped(int index) {
