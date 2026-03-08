@@ -15,8 +15,8 @@ Future<String> loadEmailTemplate() async {
 Future<bool> sendInvite(
     String recipientEmail, String patientName, String inviteLink) async {
   // await dotenv.load();
-  String your_email = 'draxgentyal02@gmail.com';
-  String your_password = 'turt osuw qybv kyty'; // Use an App Password
+  String your_email = 'your@email.com';
+  String your_password = 'yourAppPassword'; // Use an App Password
 
   final smtpServer = gmail(your_email, your_password);
 
